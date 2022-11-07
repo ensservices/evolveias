@@ -4,7 +4,8 @@
   "info": {
     "singularName": "student",
     "pluralName": "students",
-    "displayName": "student"
+    "displayName": "student",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,30 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "mothername": {
+      "type": "string",
+      "required": true
+    },
+    "contact": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "upscappearinyear": {
+      "type": "string"
+    },
+    "coursename": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "password",
+      "required": true
     }
   }
 }
