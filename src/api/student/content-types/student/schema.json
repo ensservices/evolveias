@@ -28,16 +28,14 @@
       "required": true,
       "unique": true
     },
+    "optional": {
+      "type": "string"
+    },
     "upscappearinyear": {
       "type": "string"
     },
-    "coursename": {
-      "type": "string",
-      "required": true
-    },
-    "password": {
-      "type": "password",
-      "required": true
+    "yearofgraduation": {
+      "type": "string"
     }
   }
 }
