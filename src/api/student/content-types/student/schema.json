@@ -36,6 +36,9 @@
     },
     "yearofgraduation": {
       "type": "string"
+    },
+    "password": {
+      "type": "password"
     }
   }
 }
