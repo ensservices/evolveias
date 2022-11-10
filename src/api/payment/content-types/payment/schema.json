@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payments",
+  "info": {
+    "singularName": "payment",
+    "pluralName": "payments",
+    "displayName": "Payment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "razorpay_order_id": {
+      "type": "string",
+      "required": true
+    },
+    "razorpay_payment_id": {
+      "type": "string",
+      "required": true
+    },
+    "razorpay_signature": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
